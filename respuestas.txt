@@ -1,1 +1,2 @@
 cat datos.txt | grep -i juan
+cat datos.txt | awk '{print }' | grep -i juan
