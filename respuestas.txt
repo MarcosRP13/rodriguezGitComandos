@@ -1,3 +1,4 @@
 cat datos.txt | grep -i juan
 cat datos.txt | awk '{print }' | grep -i juan
 cat datos.txt | grep -i prog
+cat datos.txt | grep -wi prog | grep -v -E SI | wc -l
